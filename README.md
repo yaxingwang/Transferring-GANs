@@ -1,3 +1,3 @@
 # Transferring-GANs-generating-images-from-limited-data
 Pretrained model
-WGAN-GP on Imagenet: [WGAN-GP_Imagenet](https://github.com/WojciechMormul/crn)
+WGAN-GP on Imagenet: [WGAN-GP_Imagenet]()
