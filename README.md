@@ -17,9 +17,9 @@ Transferring the knowledge of pretrained networks to new domains by means of fin
 # Instructions
 - Using 'git clone https://github.com/yaxingwang/Transferring-GANs'
 
-    you will get new folder whose name is 'Transferring-GANs' in your current path, then put 'cd Transferring-GANs' to enter the downloaded new folder
+    you will get new folder whose name is 'Transferring-GANs' in your current path, then  use 'cd Transferring-GANs' to enter the downloaded new folder
     
-- Download [pretrain model](https://drive.google.com/drive/folders/1KYzR-NEwKT1582USX31samfZ3JoJ5ija)
+- Download [pretrain models](https://drive.google.com/drive/folders/1KYzR-NEwKT1582USX31samfZ3JoJ5ija)
 
     uncompress downloaded folder to current folder, then you have new folder 'transfer_model'  which contains four folders: 'places', 'imagenet', 'celebA', 'bedroom'.
 
