@@ -6,8 +6,14 @@ Using pretrained models not only get high performance, but fastly attach converg
 ![unconditional_conditional](https://user-images.githubusercontent.com/16056485/40908899-5d8484be-67e8-11e8-894c-d4b19a54e48c.png)
 
 # Code
-it is released soon
-# Pretrained model:
-WGAN-GP on Imagenet/Lsun bedroom/Places/CelebA: [models](https://drive.google.com/drive/folders/1v-BY_hvT61KlWewD_wRdY1h4u3Pm3ib7)
+1. git clone https://github.com/yaxingwang/Transferring-GANs
+    you will get new folder whose name is 'Transferring-GANs' in your current path, then put 'cd Transferring-GANs' to enter the downloaded new folder
+    
+2. download [pretrain model](https://drive.google.com/drive/folders/1KYzR-NEwKT1582USX31samfZ3JoJ5ija)
+    uncompress downloaded folder to current folder, then you have new folder 'transfer_model'  which contains four folders: 'places', 'imagenet', 'celebA', 'bedroom'.
+3. run 'python transfer_gan.py'
+   running code with default setting. The pretrained model can be seleted by changing the parameter 'TARGET_DOMAIN'
+ 
+
 
 

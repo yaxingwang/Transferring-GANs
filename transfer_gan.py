@@ -36,7 +36,7 @@ LR = 1e-4# Learning rate, normally reduce it when pretrained model is used for l
 N_GPUS = 1 # Number of GPUs
 LAMBDA = 10 # Gradient penalty lambda hyperparameter
 ITERS = 200000 # How many iterations to train for
-BATCH_SIZE = 16 # Batch size. Must be a multiple of N_GPUS
+BATCH_SIZE = 64 # Batch size. Must be a multiple of N_GPUS
 CRITIC_ITERS = 5 # How many iterations to train the critic for
 OUTPUT_DIM = 64*64*3 # Number of pixels in each iamge
 
