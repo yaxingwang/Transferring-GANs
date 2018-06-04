@@ -7,6 +7,8 @@ Transferring the knowledge of pretrained networks to new domains by means of fin
 - [Installation](#installtion)
 - [Instructions](#instructions)
 - [Results](#results)
+- [References](#references)
+- [Contact](#contact)
 # Dependences 
 - **Tensorflow:** the version should be more 1.0(https://www.tensorflow.org/)
 - **Dataset:** lsun-bedroom(http://lsun.cs.princeton.edu/2017/) or your dataset 
@@ -36,4 +38,9 @@ Transferring the knowledge of pretrained networks to new domains by means of fin
 Using pretrained models not only get high performance, but fastly attach convergence. In following figure, we show conditional and unconditional settings.
 ![unconditional_conditional](https://user-images.githubusercontent.com/16056485/40908899-5d8484be-67e8-11e8-894c-d4b19a54e48c.png)
 
+# References 
+- \[1\] 'Improved Training of Wasserstein GANs' by Ishaan Gulrajani et. al, https://arxiv.org/abs/1704.00028, [code] (https://github.com/igul222/improved_wgan_training)
+- \[2\] 'GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium' by Martin Heusel  et. al, https://arxiv.org/abs/1704.00028
+# Contact
 
+If you run into any problems with this code, please submit a bug report on the Github site of the project. For another inquries pleace contact with me: yaxing@cvc.uab.es
