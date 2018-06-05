@@ -36,7 +36,7 @@ def param(name, *args, **kwargs):
 def params_with_name(name):
     return [p for n,p in _params.items() if name in n]
 def params_with_name_return_name(name):
-    return [(n, p) for n,p in _params.items() if name in n]
+    return [p for n,p in _params.items() if name in n]
 
 def delete_all_params():
     _params.clear()
