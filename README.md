@@ -24,7 +24,7 @@ Transferring the knowledge of pretrained networks to new domains by means of fin
     
 - Download [pretrain models](https://drive.google.com/drive/folders/1KYzR-NEwKT1582USX31samfZ3JoJ5ija)
 
-    uncompress downloaded folder to current folder, then you have new folder 'transfer_model'  which contains four folders: 'places', 'imagenet', 'celebA', 'bedroom'.
+    uncompress downloaded folder to current folder, then you have new folder 'transfer_model'  which contains two folders: 'conditional', 'unconditional', each of which has four foldersa: 'imagenet', 'places', 'celebA', 'bedroom'
 
 - Download dataset or use your dataset.
     
@@ -33,7 +33,7 @@ Transferring the knowledge of pretrained networks to new domains by means of fin
 
 - Run 'python transfer_gan.py'
 
-   running code with default setting. The pretrained model can be seleted by changing the parameter 'TARGET_DOMAIN'
+   runing code with default setting. The pretrained model can be seleted by changing the parameter 'TARGET_DOMAIN'
  
 - Conditional GAN 
   If you are interested in using conditional model, just setting 'ACGAN = False'
