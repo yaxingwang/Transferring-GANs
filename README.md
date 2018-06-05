@@ -35,6 +35,8 @@ Transferring the knowledge of pretrained networks to new domains by means of fin
 
    running code with default setting. The pretrained model can be seleted by changing the parameter 'TARGET_DOMAIN'
  
+- Conditional GAN 
+  If you are interested in using conditional model, just setting 'ACGAN = False'
 # Results 
 Using pretrained models not only get high performance, but fastly attach convergence. In following figure, we show conditional and unconditional settings.
 ![unconditional_conditional](https://user-images.githubusercontent.com/16056485/40908899-5d8484be-67e8-11e8-894c-d4b19a54e48c.png)
