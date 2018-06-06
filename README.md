@@ -10,7 +10,7 @@ Transferring the knowledge of pretrained networks to new domains by means of fin
 - [References](#references)
 - [Contact](#contact)
 # Dependences 
-- Python, NumPy, SciPy, NVIDIA GPU
+- Python2.7, NumPy, SciPy, NVIDIA GPU
 - **Tensorflow:** the version should be more 1.0(https://www.tensorflow.org/)
 - **Dataset:** lsun-bedroom(http://lsun.cs.princeton.edu/2017/) or your dataset 
 
@@ -20,20 +20,19 @@ Transferring the knowledge of pretrained networks to new domains by means of fin
 # Instructions
 - Using 'git clone https://github.com/yaxingwang/Transferring-GANs'
 
-    you will get new folder whose name is 'Transferring-GANs' in your current path, then  use 'cd Transferring-GANs' to enter the downloaded new folder
+    You will get new folder whose name is 'Transferring-GANs' in your current path, then  use 'cd Transferring-GANs' to enter the downloaded new folder
     
 - Download [pretrain models](https://drive.google.com/drive/folders/1KYzR-NEwKT1582USX31samfZ3JoJ5ija)
 
-    uncompress downloaded folder to current folder, then you have new folder 'transfer_model'  which contains two folders: 'conditional', 'unconditional', each of which has four foldersa: 'imagenet', 'places', 'celebA', 'bedroom'
+    Uncompressing downloaded folder to current folder, then you have new folder 'transfer_model'  which contains two folders: 'conditional', 'unconditional', each of which has four folders: 'imagenet', 'places', 'celebA', 'bedroom'
 
 - Download dataset or use your dataset.
-    
-    you shoud split your dataset into two items: train and val, and build new folder(such as 'bedroom') inside of 'data'. Finally both of train and val folders is moved into 'bedroom' folder.
-    Note: I have shown one example and you could make it with same same form.
+
+    I have shown one example and you could make it with same same form.
 
 - Run 'python transfer_gan.py'
 
-   runing code with default setting. The pretrained model can be seleted by changing the parameter 'TARGET_DOMAIN'
+   Runing code with default setting. The pretrained model can be seleted by changing the parameter 'TARGET_DOMAIN'
  
 - Conditional GAN 
   If you are interested in using conditional model, just setting parameter 'ACGAN = True'
