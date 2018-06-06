@@ -16,7 +16,7 @@ Transferring the knowledge of pretrained networks to new domains by means of fin
 
 # Installation 
 - Install tensorflow
-- opencv 
+- Opencv 
 # Instructions
 - Using 'git clone https://github.com/yaxingwang/Transferring-GANs'
 
