@@ -22,7 +22,7 @@ Transferring the knowledge of pretrained networks to new domains by means of fin
 
     You will get new folder whose name is 'Transferring-GANs' in your current path, then  use 'cd Transferring-GANs' to enter the downloaded new folder
     
-- Download [pretrain models](https://drive.google.com/drive/folders/1KYzR-NEwKT1582USX31samfZ3JoJ5ija)(Google),(https://share.weiyun.com/5mBsISh)(Tencent qcloud)
+- Download pretrain models[Google driver](https://drive.google.com/drive/folders/1KYzR-NEwKT1582USX31samfZ3JoJ5ija) [Tencent qcloud](https://share.weiyun.com/5mBsISh)
 
     Uncompressing downloaded folder to current folder, then you have new folder 'transfer_model'  which contains two folders: 'conditional', 'unconditional', each of which has four folders: 'imagenet', 'places', 'celebA', 'bedroom'
 
