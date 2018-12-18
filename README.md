@@ -38,7 +38,7 @@ Transferring the knowledge of pretrained networks to new domains by means of fin
   If you are interested in using conditional model, just setting parameter 'ACGAN = True'
 # Results 
 Using pretrained models not only get high performance, but fastly attach convergence. In following figure, we show conditional and unconditional settings.
-![unconditional_conditional](https://user-images.githubusercontent.com/16056485/40908899-5d8484be-67e8-11e8-894c-d4b19a54e48c.png)
+<p align="center"><img width="100%" height='60%'src="results/FID.png" /></p>
 
 # References 
 - \[1\] 'Improved Training of Wasserstein GANs' by Ishaan Gulrajani et. al, https://arxiv.org/abs/1704.00028, (https://github.com/igul222/improved_wgan_training)[code] 
